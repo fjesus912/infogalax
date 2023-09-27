@@ -1,0 +1,31 @@
+html {
+  box-sizing: border-box;
+}
+
+*, *::after, *::before {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+}
+
+button {
+  border: none;
+  outline: none;
+  background-color: transparent;
+  user-select: none;
+}
+
+button:active {
+  transform: scale(0.9);
+}
+
+p {
+  margin: 0;
+}

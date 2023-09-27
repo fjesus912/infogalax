@@ -1,0 +1,90 @@
+.app {
+  background-size: cover;
+  background-position: center;
+}
+
+.app.bg1 {
+  background-image: url(/bg1.webp);
+  position: relative;
+}
+
+.app.bg2 {
+  background-image: url(/bg2.webp);
+  position: relative;
+}
+
+.app.bg3 {
+  background-image: url(/bg3.webp);
+  position: relative;
+}
+
+.app.bg4 {
+  background-image: url(/bg4.webp);
+  position: relative;
+}
+
+.app.bg5 {
+  background-image: url(/bg5.webp);
+  position: relative;
+}
+
+.app.bg6 {
+  background-image: url(/bg6.webp);
+  position: relative;
+}
+
+.app.bg7 {
+  background-image: url(/bg7.webp);
+  position: relative;
+}
+
+.app.bg8 {
+  background-image: url(/bg8.webp);
+  position: relative;
+}
+
+.app.bg9 {
+  background-image: url(/bg9.webp);
+  position: relative;
+}
+
+.app.bg10 {
+  background-image: url(/bg10.webp);
+  position: relative;
+}
+
+.app.bg11 {
+  background-image: url(/bg11.webp);
+  position: relative;
+}
+
+.planet {
+  position: fixed;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+
+
+  background-size: cover;
+  background-position: center;
+}
+
+
+.planet.planet1 {
+  background-image: url(/planet1.svg);
+}
+
+.planet.planet2 {
+  background-image: url(/planet2.svg);
+}
+
+.planet.planet3 {
+  background-image: url(/planet3.svg);
+}
+
+.planet.planet4 {
+  background-image: url(/planet4.svg);
+}

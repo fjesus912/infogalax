@@ -1,0 +1,52 @@
+.quoteCard{
+    min-height: 100vh;
+    display: grid;
+    grid-template-rows: 1fr auto;
+    text-align: center;
+    align-items: center;
+    padding: 20px;
+    color: white;
+}
+
+.quoteCard__title{
+    font-size: 40px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: normal;
+    font-family: 'Return of Ganon', sans-serif;
+    text-shadow: 0px 4px 6px #9F84C5;
+}
+
+.quoteCard__phrase{
+    margin: 30px auto;
+    max-width: 400px;
+    padding: 70px 33px;
+    border-radius: 39px;
+    background: linear-gradient(180deg, #FFF 0%, rgba(255, 255, 255, 0.40) 100%);
+    box-shadow: 3px 4px 10px rgba(159, 132, 197, 0.7);;
+    font-family: 'Return of Ganon', sans-serif;
+    color: #25063F;
+    font-size: 20px;
+    text-transform: uppercase
+}
+
+.quoteCard__btn > img {
+  cursor: pointer;
+}
+
+.quoteCard__footer{
+    font-family: 'Fredoka', sans-serif;
+    text-shadow: 0px 4px 6px rgba(0, 0, 0, 0.33);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    z-index: 100;
+}
+
+.quoteCard__container {
+    z-index: 100;
+}
+
+
+
